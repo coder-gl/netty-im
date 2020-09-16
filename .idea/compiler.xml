@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="netty-im-client" />
+        <module name="netty-im-server" />
+        <module name="netty-socket-server" />
+        <module name="netty-socket-client" />
+        <module name="netty-im" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="netty-im" target="1.8" />
+      <module name="netty-im-client" target="1.8" />
+      <module name="netty-im-server" target="1.8" />
+      <module name="netty-socket-client" target="1.8" />
+      <module name="netty-socket-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="netty-im" options="-parameters" />
+      <module name="netty-im-client" options="-parameters" />
+      <module name="netty-im-server" options="-parameters" />
+      <module name="netty-socket-client" options="-parameters" />
+      <module name="netty-socket-server" options="-parameters" />
+    </option>
+  </component>
+</project>
